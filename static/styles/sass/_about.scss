@@ -1,0 +1,37 @@
+$closed_length: 4em;
+
+
+#about {
+	overflow: hidden;
+    background-color: maroon;
+    text-align: center;
+
+    h1 {
+    	font-size: $closed_length;
+    	margin: auto;
+    } 
+
+    p {
+    	margin: 0 10%;
+    }
+}
+
+.about_closed {
+	height: $closed_length;
+	
+    transition: {
+		property: height;
+		duration: 1s;
+		timing-function: ease-in;
+	}
+}
+
+.about_opened{
+	height: 10em;
+
+	transition: {
+		property: height;
+		duration: 1s;
+		timing-function: ease-out;
+	}
+}
