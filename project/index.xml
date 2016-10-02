@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects on Grid Side</title>
-    <link>http://replace-this-with-your-hugo-site.com/project/</link>
-    <description>Recent content in Projects on Grid Side</description>
+    <title>Projects on Hamzali</title>
+    <link>http://hamzali.github.io/project/</link>
+    <description>Recent content in Projects on Hamzali</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Copyright &amp;#169; by Your Name</copyright>
+    <copyright>Copyright &amp;#169; hamzali</copyright>
     <lastBuildDate>Sun, 02 Oct 2016 16:36:30 +0300</lastBuildDate>
-    <atom:link href="http://replace-this-with-your-hugo-site.com/project/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://hamzali.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>new project</title>
-      <link>http://replace-this-with-your-hugo-site.com/project/new-project/</link>
+      <link>http://hamzali.github.io/project/new-project/</link>
       <pubDate>Sun, 02 Oct 2016 16:36:30 +0300</pubDate>
       
-      <guid>http://replace-this-with-your-hugo-site.com/project/new-project/</guid>
+      <guid>http://hamzali.github.io/project/new-project/</guid>
       <description></description>
     </item>
     
