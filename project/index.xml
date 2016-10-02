@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Hamzali</title>
-    <link>http://hamzali.github.io/project/</link>
+    <link>http://hamzali.github.io/test/project/</link>
     <description>Recent content in Projects on Hamzali</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;#169; hamzali</copyright>
     <lastBuildDate>Sun, 02 Oct 2016 16:36:30 +0300</lastBuildDate>
-    <atom:link href="http://hamzali.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://hamzali.github.io/test/project/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>new project</title>
-      <link>http://hamzali.github.io/project/new-project/</link>
+      <link>http://hamzali.github.io/test/project/new-project/</link>
       <pubDate>Sun, 02 Oct 2016 16:36:30 +0300</pubDate>
       
-      <guid>http://hamzali.github.io/project/new-project/</guid>
+      <guid>http://hamzali.github.io/test/project/new-project/</guid>
       <description></description>
     </item>
     
