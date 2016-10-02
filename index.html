@@ -1,99 +1,265 @@
 <!DOCTYPE html>
-
-<html lang="en">
-	<head>
-		<title>WiShirt</title>
-		<meta charset="utf-8" content="">
-		<link rel="stylesheet" type="text/css" href="static/styles/style.css">
-		
-		<script src="static/js/jQuery.js" type="text/javascript"> </script>
-	</head>
-
-	<body>
-		
-		<header><a href="#">LOGO</a></header>
-
-		<div style=" position: static; height: 108px;"></div>
-		
-		<div class="shirt-slider">
-				<h1><a href="#">TITLE</a></h1>
-
-				<div id="slider">	
-					<img src="static/images/arrow-left.svg"  id="arrow-left" alt="arrow-img" onclick="leftClick()">
-					<img src="static/images/arrow-right.svg" id="arrow-right" alt="arrow-img" onclick="rightClick()">
-				</div>				
-				
-				<img src="static/images/design-1.png" alt="design" id="design">
-				<img src="static/images/shirt_img.jpg" alt="shirt" id="shirt">	
-				
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non lobortis sem, id varius lacus. Vestibulum bibendum semper elit pretium facilisis. Etiam ac lorem id ligula eleifend ornare. Suspendisse eu mauris eu metus consectetur ornare. Quisque lobortis velit finibus auctor luctus. Fusce ac leo metus. Vestibulum sem erat, fermentum ut urna eget, scelerisque porttitor leo.</p>
-
-				<button>Buy</button>
-		</div>
-
-
-		<div id="about" class="about_closed">
-			<h1>About</h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non lobortis sem, id varius lacus. Vestibulum bibendum semper elit pretium facilisis. Etiam ac lorem id ligula eleifend ornare. Suspendisse eu mauris eu metus consectetur ornare. Quisque lobortis velit finibus auctor luctus. Fusce ac leo metus. Vestibulum sem erat, fermentum ut urna eget, scelerisque porttitor leo.</p>
-		</div>
+<html 
+    lang="en-us"
+    class="no-js"
+>
 
 
 
-		<div class="wish-content">
-			<div class="wishes">
-				<h1>Title</h1>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non lobortis sem, id varius lacus. Vestibulum bibendum semper elit pretium facilisis. Etiam ac lorem id ligula eleifend ornare. Suspendisse eu mauris eu metus consectetur ornare. Quisque lobortis velit finibus auctor luctus. Fusce ac leo metus. Vestibulum sem erat, fermentum ut urna eget, scelerisque porttitor leo.</p>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="">
+    <meta name="description" content="">
+    
+      <link href="http://replace-this-with-your-hugo-site.com/index.xml" rel="alternate" type="application/rss+xml" title="Grid Side" />
+      <link href="http://replace-this-with-your-hugo-site.com/index.xml" rel="feed" type="application/rss+xml" title="Grid Side" />
+    
+    <meta name="generator" content="Hugo 0.16" />
+    <meta name="generation-date" content="2016-10-02 18:01:31.42411101 &#43;0300 EEST">
+    <title>Grid Side &middot; Grid Side</title>
+    <link rel="shortcut icon" href="http://replace-this-with-your-hugo-site.com/img/favicon.ico">
+    <link rel="icon" href="http://replace-this-with-your-hugo-site.com/img/favicon.ico">
+    
+<link rel="stylesheet" href="http://replace-this-with-your-hugo-site.com/css/materialize.min.css">
 
-				<h1>Title</h1>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non lobortis sem, id varius lacus. Vestibulum bibendum semper elit pretium facilisis. Etiam ac lorem id ligula eleifend ornare. Suspendisse eu mauris eu metus consectetur ornare. Quisque lobortis velit finibus auctor luctus. Fusce ac leo metus. Vestibulum sem erat, fermentum ut urna eget, scelerisque porttitor leo.</p>
 
-				<h1>Title</h1>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non lobortis sem, id varius lacus. Vestibulum bibendum semper elit pretium facilisis. Etiam ac lorem id ligula eleifend ornare. Suspendisse eu mauris eu metus consectetur ornare. Quisque lobortis velit finibus auctor luctus. Fusce ac leo metus. Vestibulum sem erat, fermentum ut urna eget, scelerisque porttitor leo.</p>
+<link rel="stylesheet" href="http://replace-this-with-your-hugo-site.com/css/font-awesome.min.css">
 
-				<h1>Title</h1>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non lobortis sem, id varius lacus. Vestibulum bibendum semper elit pretium facilisis. Etiam ac lorem id ligula eleifend ornare. Suspendisse eu mauris eu metus consectetur ornare. Quisque lobortis velit finibus auctor luctus. Fusce ac leo metus. Vestibulum sem erat, fermentum ut urna eget, scelerisque porttitor leo.</p>
-			</div>
 
-			<div class="wish-info">
-				<h1>Title</h1>
+    
+    <link rel="stylesheet" href="http://replace-this-with-your-hugo-site.com/css/styles/railscasts.css">
 
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non lobortis sem, id varius lacus. Vestibulum bibendum semper elit pretium facilisis. Etiam ac lorem id ligula eleifend ornare. Suspendisse eu mauris eu metus consectetur ornare. Quisque lobortis velit finibus auctor luctus. Fusce ac leo metus. Vestibulum sem erat, fermentum ut urna eget, scelerisque porttitor leo.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non lobortis sem, id varius lacus. Vestibulum bibendum semper elit pretium facilisis.</p>
 
-				<button>WISH</button>
 
-			</div>
+<link rel="stylesheet" href="http://replace-this-with-your-hugo-site.com/css/lightbox.css">
 
-		</div>
 
-		<script type="text/javascript" src="static/js/script.js"></script>
+<link rel="stylesheet" href="http://replace-this-with-your-hugo-site.com/css/main.css">
 
-		<footer>
 
-			<ul>			
-				<li><div class="f-head">Contact</div></li>
-				<li><div class="f-head">Site Map</div></li>
-			</ul>	
-			<ul>			
-				<li>
-				<address>111 Union Street 
-				Camp Hill, PA 17011
-				phone: +905545077657
-				</address>
-					<ul>
-						<li><a href="#"><img class="social-icon" src="static/images/facebook.svg"></a></li>
-						<li><a href="#"><img class="social-icon" src="static/images/twitter.svg"></a></li>
-						<li><a href="#"><img class="social-icon" src="static/images/tumblr.svg"></a></li>
-					</ul>
-				</li>
+    <script src="http://replace-this-with-your-hugo-site.com/js/modernizr-latest.js"></script>
+    <script src="http://replace-this-with-your-hugo-site.com/js/lazysizes.min.js"></script>
+    <script src="http://replace-this-with-your-hugo-site.com/js/ls.noscript.min.js"></script>
 
-				<li>
-					
-					<a href="#">Shirts</a>
-					<a href="#">Wishes</a>
-					<a href="#">Make Wish</a>
-				</li>
-			</ul>		
-		</footer>
+    <script>
+        window.lazySizesConfig = window.lazySizesConfig || {};
+        lazySizesConfig.addClasses = true;
+        lazySizesConfig.loadMode = 2;
+    </script>
 
-	</body>
+    
+</head>
+
+
+
+
+<body class="page-colors">
+    <div class="parallax">
+        
+            
+            <div class="parallax__group">
+                <div class="parallax__layer parallax__layer--base">
+                    <div class="valign-wrapper" style="height: 100%;">
+    <span class="valign center white-text" style="
+        display: inline-block;
+        border: 2px solid #FFF;
+        background-color: rgba(0, 0, 0, 0.3);
+        padding: 15px 25px;
+        margin: 0 auto;
+    ">
+        <h2>Hamza Ali TAS</h2>
+        <h5>hamzalitas95@gmail.com</h5>
+        
+            <h2><hr></h2>
+            <h5>I am a hard-working, passionate and curious computer engineer</h5>
+        
+    </span>
+</div>
+
+
+                </div>
+                <div class="parallax__layer parallax__layer--back fullsize-background-image"
+                    
+                        style="background-image: url('http://replace-this-with-your-hugo-site.com//img/hamzali.jpg'); "
+                    
+                ></div>
+            </div>
+        
+
+        <div class="parallax__group parallax__group--auto-height">
+            <div class="parallax__layer parallax__layer--base">
+                <div class="row-colors center-align">
+                    <h2 class="no-margin">
+                        <ul class="horizontal no-bullets no-margin">
+                            <li>
+<svg class="face" height="48" viewBox="0 0 24 24" width="48" xmlns="http://www.w3.org/2000/svg">
+    <path d="M9 11.75c-.69 0-1.25.56-1.25 1.25s.56 1.25 1.25 1.25 1.25-.56 1.25-1.25-.56-1.25-1.25-1.25zm6 0c-.69 0-1.25.56-1.25 1.25s.56 1.25 1.25 1.25 1.25-.56 1.25-1.25-.56-1.25-1.25-1.25zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8 0-.29.02-.58.05-.86 2.36-1.05 4.23-2.98 5.21-5.37C11.07 8.33 14.05 10 17.42 10c.78 0 1.53-.09 2.25-.26.21.71.33 1.47.33 2.26 0 4.41-3.59 8-8 8z"/>
+    <path d="M0 0h24v24H0z" fill="none"/>
+</svg>
+</li>
+                            <li>About Me</li>
+                        </ul>
+                    </h2>
+                </div>
+
+                <div class="flex-container">
+                    
+                        
+                        <a href="http://replace-this-with-your-hugo-site.com//post/" class="flex-item">
+                            <div class="cell
+                                fill-container
+                                no-padding
+                                
+                                
+                                fullsize-background-image
+                            " style="
+                                
+                                    background-image: url('http://replace-this-with-your-hugo-site.com//img/post-it.png');
+                                
+
+                                
+                                height: 
+                                    33.33vh
+                                ;
+                            ">
+                                
+                                
+
+                                
+                                    <div class="highlight-block">
+                                        <h3 class="white-text">Posts</h3>
+                                    </div>
+                                
+                            </div>
+                        </a>
+                    
+                        
+                        <a href="http://replace-this-with-your-hugo-site.com//project/" class="flex-item">
+                            <div class="cell
+                                fill-container
+                                no-padding
+                                
+                                
+                                fullsize-background-image
+                            " style="
+                                
+                                    background-image: url('http://replace-this-with-your-hugo-site.com//img/browser.svg');
+                                
+
+                                
+                                height: 
+                                    33.33vh
+                                ;
+                            ">
+                                
+                                
+
+                                
+                                    <div class="highlight-block">
+                                        <h3 class="white-text">Projects</h3>
+                                    </div>
+                                
+                            </div>
+                        </a>
+                    
+                        
+                        <a href="http://replace-this-with-your-hugo-site.com//bio/" class="flex-item">
+                            <div class="cell
+                                fill-container
+                                no-padding
+                                
+                                
+                                fullsize-background-image
+                            " style="
+                                
+                                    background-image: url('http://replace-this-with-your-hugo-site.com//img/resume.svg');
+                                
+
+                                
+                                height: 
+                                    33.33vh
+                                ;
+                            ">
+                                
+                                
+
+                                
+                                    <div class="highlight-block">
+                                        <h3 class="white-text">Bio</h3>
+                                    </div>
+                                
+                            </div>
+                        </a>
+                    
+                </div>
+
+                
+                    <div class="row-colors right-align">
+                        <ul class="main-page-footer horizontal no-bullets no-margin">
+                            
+                                <li>
+                                    <a href="#!">
+                                        <i class="fa fa-linkedin"></i>
+                                    </a>
+                                </li>
+                                <li>|</li>
+                            
+                                <li>
+                                    <a href="#!">
+                                        <i class="fa fa-google-plus"></i>
+                                    </a>
+                                </li>
+                                <li>|</li>
+                            
+                                <li>
+                                    <a href="#!">
+                                        <i class="fa fa-github"></i>
+                                    </a>
+                                </li>
+                                <li>|</li>
+                            
+                            <li>Copyright &#169; by Your Name</li>
+                        </ul>
+                    </div>
+                
+            </div>
+        </div>
+    </div>
+
+    
+<script src="http://replace-this-with-your-hugo-site.com/js/jquery-2.1.4.min.js"></script>
+
+
+<script src="http://replace-this-with-your-hugo-site.com/js/materialize.min.js"></script>
+
+
+<script src="http://replace-this-with-your-hugo-site.com/js/imagesloaded.pkgd.min.js"></script>
+
+
+<script src="http://replace-this-with-your-hugo-site.com/js/masonry.pkgd.min.js"></script>
+
+
+    
+    <script src="http://replace-this-with-your-hugo-site.com/js/highlight.pack.js"></script>
+
+
+
+<script src="http://replace-this-with-your-hugo-site.com/js/lightbox.min.js"></script>
+
+
+<script src="http://replace-this-with-your-hugo-site.com/js/jquery.infinitescroll.min.js"></script>
+
+
+<script src="http://replace-this-with-your-hugo-site.com/js/main.js"></script>
+
+
+</body>
+
 </html>
+
+
+
+
+
