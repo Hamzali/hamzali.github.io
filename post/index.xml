@@ -1,22 +1,34 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Hamzali</title>
-    <link>http://hamzali.github.io/post/</link>
-    <description>Recent content in Posts on Hamzali</description>
+    <title>Posts on TARSUS</title>
+    <link>uildDrafts/post/</link>
+    <description>Recent content in Posts on TARSUS</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>Copyright &amp;#169; hamzali</copyright>
-    <lastBuildDate>Sun, 02 Oct 2016 16:19:00 +0300</lastBuildDate>
-    <atom:link href="http://hamzali.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-US</language>
+    <copyright>All rights reserved - 2016</copyright>
+    <atom:link href="uildDrafts/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>new post</title>
-      <link>http://hamzali.github.io/post/new-post/</link>
-      <pubDate>Sun, 02 Oct 2016 16:19:00 +0300</pubDate>
+      <title>TARSUS TARS</title>
+      <link>/uildDrafts/post/test/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://hamzali.github.io/post/new-post/</guid>
-      <description>&lt;p&gt;this is a post of mine!&lt;/p&gt;
+      <guid>/uildDrafts/post/test/</guid>
+      <description>&lt;style&gt;
+    .blog-logo &gt; img {
+        height: 72px;
+        width: 320px;
+    }
+&lt;/style&gt;
+
+&lt;p&gt;&lt;img src=&#34;uildDrafts/product-2.JPG&#34; alt=&#34;Example image&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;TARS aims to provide optimal workflows within industries improving efficiency through utilizing latest technologies. It is an Industrial Internet-of-Things platform which consists of both hardware and software. The major developmental constraint of the product has been energy consumption followed by industrial robustness. Therefore, all the components and software have been designed accordingly. TARS modernizes the conventional processes facilitated by either human force or less optimal legacy systems, improves efficiency and lowers failure and error rates drastically, enables telemetry causing valuable data be stored on databases for further analysis, data mining and artificial intelligence applications, can serve under heavy workload or hazardous areas which cannot easily be handled or accessed by human force, provides a more flexible, affordable and easy-to-use solution compared to SCADA systems, presents an easy to deploy and mount hardware interface with pluggable sensors and batteries, offers secure and encrypted data transmission and interconnectedly can handle relatively complex problems acting as a swarm of devices.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;uildDrafts/product-1.JPG&#34; alt=&#34;Example image&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;team.png&#34; alt=&#34;test&#34;/&gt;&lt;/p&gt;
 </description>
     </item>
     
