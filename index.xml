@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>TARSUS</title>
-    <link>hamzali.github.io/</link>
-    <description>Recent content on TARSUS</description>
+    <title>TARS</title>
+    <link>/</link>
+    <description>Recent content on TARS</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <copyright>All rights reserved - 2016</copyright>
-    <atom:link href="hamzali.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>TARSUS TARS</title>
-      <link>/hamzali.github.io/post/test/</link>
+      <title>TARS</title>
+      <link>/post/test/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/hamzali.github.io/post/test/</guid>
+      <guid>/post/test/</guid>
       <description>&lt;style&gt;
     .blog-logo &gt; img {
         height: 72px;
