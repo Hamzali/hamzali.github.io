@@ -2,11 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>/</loc>
+    <loc>/buildDrafts/</loc>
   </url>
   
   <url>
-    <loc>/post/test/</loc>
+    <loc>/buildDrafts/post/test/</loc>
   </url>
   
 </urlset>
