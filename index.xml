@@ -18,8 +18,8 @@
       <description>
 
 &lt;style&gt;
-    .page-description {
-        margin-top: 5px;
+    .page-title {
+        margin: 20px;
     }
     .blog-logo &gt; img {
         height: 72px;
