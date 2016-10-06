@@ -21,6 +21,7 @@
     .page-title {
         margin: 20px;
     }
+    
     .blog-logo &gt; img {
         height: 72px;
         width: 320px;

@@ -866,6 +866,7 @@ body.nav-opened .menu-button .word {
     font-weight: 700;
     font-family: "Open Sans", sans-serif;
     color: #fff;
+
 }
 
 .page-description {
@@ -879,7 +880,7 @@ body.nav-opened .menu-button .word {
 }
 
 .no-cover.main-header {
-    min-height: 160px;
+    min-height: 600px;
     max-height: 40vh;
     background: #f5f8fa;
 }
@@ -889,7 +890,7 @@ body.nav-opened .menu-button .word {
 }
 
 .no-cover .page-description {
-    color: rgba(0,0,0,0.5);
+    color: white;
 }
 
 .no-cover .main-nav.overlay .menu-button {
@@ -1068,6 +1069,7 @@ body:not(.post-template) .post-title {
    with browser width % calculations and rounding */
 .post-template .content {
     overflow: hidden;
+
 }
 
 /* Tweak the .post wrapper style */
@@ -2035,4 +2037,12 @@ canvas {
   border-radius: 0 0 3px 3px;
 }
 
+#content {
+    margin-top: 20%;
+}
 
+.inner {
+    /*margin-top: 20%;*/
+
+    /*transform: translateY(200px);*/
+}
