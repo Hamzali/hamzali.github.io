@@ -35,3 +35,12 @@ $(window).keypress(function (e) {
             break;
     } 
 });
+
+$('body').on('tap', function (e) {
+    let lastPage = currentPage;
+    if(currentPage >= pages.length - 1) currentPage = 0;
+    else currentPage++;
+
+    hide(pages[lastPage]);
+    show(pages[currentPage]);
+});
