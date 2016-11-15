@@ -1,0 +1,121 @@
+<!doctype html>
+
+<html lang="tr">
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    </head>
+
+    <body>
+        <div id="main">
+            <div class="page page-1">
+                <img src="images/git-logo.png" alt="log-git">
+                <h1>git</h1>
+                <hr/>
+                <p>Yazılım geliştirme süreçlerinde kullanılan, hız odaklı, dağıtık çalışan bir <strong>VCS</strong>'dir.</p>
+                
+                <h1>VCS(Sürüm Kontrol Sistemi)</h1>
+                <hr/>
+                <p>Düzeltme, kontrol veya Kaynak kontrol, belge, program ve bilgisayar dosyaları gibi depolanan bilgilerin değişiklik yönetim sistemidir.</p>
+            </div>
+
+            <div class="page page-2">
+                <h1>Tamam!</h1>
+                <h2>Ama Neden??</h2>
+                <img src="images/confused-man.png" alt="consfused-man">
+            </div>
+
+            <div class="page page-3">
+                <h1>Çünkü</h1>
+                <ul>
+                    <li>Neyi, ne zaman, kimin yazdığını bilmek ve takip etmek</li>
+                    <li>Eski versiyonların kayıtta tutulması</li>
+                    <li>Takım halinde kod yazmak</li>
+                    <li>Projenin güvenliği</li>
+                </ul>
+
+                <img src="images/branching-illustration.png" alt="">
+            </div>
+
+            <div class="page page-4">
+                <h1>Peki nasıl çalışır?</h1>
+                <img src="images/areas.png" alt="">
+                <p>Bilgisayarınızda bir dizini takip eder ve internet üzerindeki deponuzla bağlar.</p>
+            </div>
+
+            <div class="page page-5">
+                <h1>Repository??</h1>
+                <p>İnternet üzerindeki projenin saklandığı yer. Ana depo.</p>
+                <h1>Stage??</h1>
+                <p>Yaptığınız değişiklerin depoya yollanacaklarıdır. Sadece kendi bilgisayarınızda kalması gerekenleri stage yapmazsınız.</p>
+                <h1>Commit??</h1>
+                <p>Depoya gidecek değişiklerin **anlamlı bir mesaj ile paketlenip gönderilmeye hazırlanması.</p>
+                <h1>.</h1>
+                <h1>.</h1>
+                <h1>.</h1>
+                <p>Bu böyle gider, o yüzden hepsini yazmayalım.</p>
+            </div>
+
+            <div class="page page-6">
+                <h1>ilk adımlar</h1>
+                <ul class="commands">
+                    <li>init</li>
+                    <li>status</li>
+                    <li>add</li>
+                    <li>commit</li>
+                    <li>push</li>
+                    <li>pull</li>
+                    <li>remote</li>
+                    <li>clone</li>
+                </ul>
+
+            </div>
+
+            <div class="page page-7">
+                <h2>Kendi bilgisayarınızda olan bir projeyi takibe alma ve repo kurulumu</h2>
+                <ol>
+                    <li>Önce proje dizininizde komut satırı açın.</li>
+                    <li>Projenin takibinin başlaması için şu komutu girin: <br/><span class="commands">git init</span></li>
+                    <li>Sonra bu değişikliklerden commitlemek hepsini stagelemek için: <br/><span class="commands">git add -A</span></li>
+                    <li>Değişiklikler paketlenip göndermeye hazır yani commitlemeye: <br/><span class="commands">git commit -m "**anlamlı mesaj"</span></li>
+                    <li>Şimdi bu değişikleri internetteki depoya yollama zamanı. Bir dakka internetteki depo nerde??</li>
+                    <li>Hemen github'a üye ol ve bir tane repository aç ama initialize etme.</li>
+                    <li>Sonra kara kuru komut satırına dön.</li>
+                    <li>Şimdi internetteki ana depo adresini bilgisayardaki git programına söyle: <br/><span class="commands">git remote add origin https://github.com/user/repo.git</span></li>
+                    <li>Evet artık tüm değişiklikleri ana merkeze yollayabiliriz:  <br/><span class="commands">git push -u origin master</span> <br/>**sadece ilk seferde bu şekilde sonra sadece git push olarak kullanabilirsiniz.</li>
+                </ol>
+
+                <p>Ve artık zaten Bilgisayarınızda olan bir projeyi git ile takip edip internete taşıdınız.</p>
+                
+                <h2>Reposu olan bir projeyi bilgisayarınıza alma</h2>
+                <ol>
+                    <li>Reponun linkini bulduktan sonra içine kurmak istediğiniz dizine gidip: <br/><span class="commands">git clone https://github.com/user/repo.git</span></li>
+                    <li>Bu kadar! artık her değişiklik yaptığınızda sırayla;<br/> stage(add) - commit - push yapın.</li>
+                    <li>Başkalarının değişimlerini almak için ise: <br/><span class="commands">git pull</span></li>
+                </ol>
+            </div>
+
+            <div class="page pages-8">
+                <h1>Başka githublar</h1>
+                <br>
+                <img src="images/bitbucket-logo.svg" alt="logo" height="100">
+                <hr>
+                <img src="images/gitlab.svg" alt="logo" height="100">
+                <br>
+                
+                <h1>Ben komut satırı kullanmam! hıh!</h1>
+                <br>
+                <img src="images/gitkraken.svg" alt="logo" height="100">
+                <hr>
+                <img src="images/sourcetree.png" alt="logo" height="100">
+            </div>
+
+
+
+        </div>
+
+        <script src="libs/jquery-3.1.1.slim.js"></script>
+        <script src="presentation.js"></script>
+
+    </body>
+</html>
