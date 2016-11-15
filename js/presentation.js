@@ -36,7 +36,7 @@ $(window).keypress(function (e) {
     } 
 });
 
-$('body').on('tap', function (e) {
+$('body').on('click', function (e) {
     let lastPage = currentPage;
     if(currentPage >= pages.length - 1) currentPage = 0;
     else currentPage++;
