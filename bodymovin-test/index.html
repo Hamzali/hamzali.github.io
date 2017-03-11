@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Bodymovin test</title>
+		<script src="js/bodymovin.js" type="text/javascript"></script>
+		<script src="js/animData.js" type="text/javascript"></script>
+	</head>
+
+	<body>
+	<div id="anim" class="bodymovin" style="height: 200px; margin-top: 200px;"></div>
+
+	<script type="text/javascript">
+		const element = document.getElementById('anim');
+
+		bodymovin.loadAnimation({
+		  container: element, // the dom element
+		  renderer: 'svg',
+		  loop: true,
+		  autoplay: true,
+		  animationData: animationData // the animation data
+		});
+
+	</script>
+	</body>
+</html>
