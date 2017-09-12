@@ -39,9 +39,9 @@ function initializeClock(id, endtime) {
 
 var comingDate = new Date();
 comingDate.setMonth(8);
-comingDate.setDate(16);
-comingDate.setHours(12);
-comingDate.setMinutes(0);
+comingDate.setDate(19);
+comingDate.setHours(11);
+comingDate.setMinutes(15);
 comingDate.setSeconds(0);
 
 var deadline = new Date(Date.parse(comingDate));
